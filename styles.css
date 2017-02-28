@@ -13,7 +13,6 @@ h1:hover{
 }
 
 div * {
-  float: left;
   width: 50%;
 
 }
@@ -152,7 +151,7 @@ h5{
   font-family: Arial;
   font-size: 25px;
   color: white;
-  margin-top: 150px;
+  margin-top: 20px;
 }
 
 /* Lisa's changes */
