@@ -1,7 +1,10 @@
 Hello World
+<<<<<<< HEAD
 
 Made some test changes...
 
 Let's do one more change to see this working...
 
 Add this text while trying to add a file also
+=======
+>>>>>>> parent of 997e738... made a test change
