@@ -41,6 +41,13 @@ body {
   height: 15%;
   width: 15%;
 }
+
+#navlogo{
+  margin-left: 10px;
+  height: 50px;
+  width: 100px;
+  object-fit: scale-down;
+}
 /* Landscape phones and down */
 @media (max-width: 480px) {
   #photoSection{
@@ -71,18 +78,24 @@ body {
   padding: 15px;
 }
 
+#retirementPhoto {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  padding: 15px;
+  margin-top: 20px;
+}
+
 #logo{
   height: 150px;
-  width: 250px;
-  object-fit: scale-down;
+  width: 350px;
+  object-fit: contain;
   padding: 15px;
 }
 
 .contactInfo{
   padding-top:25px;
 }
-
-
 
 #navTelephone{
   margin-top: 10px;
@@ -134,12 +147,6 @@ a:hover {
 .cardPhoto{
   object-fit: contain;
 
-}
-
-.headerLogo {
-  height: 50px;
-  width: 100px;
-  object-fit: scale-down;
 }
 
 .socialMediaTag {
@@ -198,10 +205,11 @@ a:hover {
 }
 
 .drImage {
-  width: 90%;
-  height: 75%;
+  width: 70%;
+  height: 50%;
   object-fit: contain;
-  margin: 10px;
+  margin-left: 50px;
+  padding: 10px;
 }
 
 .staffMiddle {
@@ -227,4 +235,7 @@ a:hover {
   color: #FEF6EB;
   font-size: 16px;
   padding: 16px 32px;
+}
+#retirementLetter{
+  padding: 10px;
 }
