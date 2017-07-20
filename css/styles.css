@@ -54,6 +54,12 @@ body {
 }
 
 .drImage {
+  margin-left: -15px;
+}
+
+.border{
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 /* Landscape phones and down */
 @media (max-width: 480px) {
@@ -75,8 +81,9 @@ body {
     width: 70%;
     height: 50%;
     object-fit: contain;
-    margin-left: 70px;
-    padding: 10px;
+  }
+  .center{
+    text-align: center !important;
   }
 }
 
@@ -125,8 +132,8 @@ body {
 }
 
 #logo{
-  height: 150px;
-  width: 350px;
+  height: 200px;
+  width: 400px;
   object-fit: contain;
   padding: 15px;
 }
@@ -144,6 +151,13 @@ body {
 #logoTelephone{
   margin-top: 20px;
   font-size: 20px;
+}
+
+#welcomeBanner{
+background-color: white;
+height: 215px;
+padding: 0px;
+margin: 0px -15px 0px 0px;
 }
 
 p {
@@ -199,6 +213,14 @@ a:hover {
   background-color: #3399cc;
 }
 
+.primaryBackground{
+  background-color: #cbe9f2;
+}
+
+.bannerBackground{
+  background-color: white;
+}
+
 .grey {
   background-color: #74828F;
 }
@@ -217,6 +239,10 @@ a:hover {
 
 .textWhite {
   color: #FEF6EB !important;
+}
+
+.primaryText{
+  color: #416a89 !important;
 }
 
 .textDark{
