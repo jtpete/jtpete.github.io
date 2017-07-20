@@ -54,7 +54,11 @@ body {
 }
 
 .drImage {
-  margin-left: -15px;
+  margin-left: 15px;
+}
+
+.drBackground{
+  background-color:: #fafbfc;
 }
 
 .border{
