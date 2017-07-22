@@ -128,15 +128,18 @@ body {
 }
 
 #retirementPhoto {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
+
   padding: 15px;
-  margin-top: 20px;
+}
+#retirementPhotoSection {
+
+  padding-top: 60px;
 }
 
+
+
 #logo{
-  height: 200px;
+  height: 100%;
   width: 400px;
   object-fit: contain;
   padding: 15px;
@@ -239,6 +242,10 @@ a:hover {
 
 .darkBlue{
   background-color: #153450;
+}
+
+.bottomBanner{
+  background-color: #3399cc;
 }
 
 .textWhite {
