@@ -53,8 +53,20 @@ body {
   height: 400px;
 }
 
-.drImage {
-  margin-left: 15px;
+#satulaImg{
+  padding-left: unset;
+}
+
+#muellerImg{
+  padding-right: unset;
+}
+
+.move-left{
+  text-align: left;
+}
+
+.move-right{
+  padding: inherit;
 }
 
 .drBackground{
@@ -86,16 +98,25 @@ body {
     height: 50%;
     object-fit: contain;
   }
+  #satulaImg{
+    text-align: -webkit-center;
+  }
+
+  #muellerImg{
+    text-align: -webkit-center;
+    margin-left: -15px;
+}
+
   .center{
     text-align: center !important;
   }
 }
 
+
 #logoSection {
   padding-top: 50px;
   height: 200px;
 }
-
 .mainPhoto {
   height: 100%;
   width: 100%;
