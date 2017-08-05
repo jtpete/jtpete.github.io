@@ -77,6 +77,14 @@ body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
+.welcomeDiv{
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 200px;
+
+}
+
 /* Landscape phones and down */
 @media (max-width: 480px) {
   #photoSection{
@@ -110,6 +118,12 @@ body {
   .center{
     text-align: center !important;
   }
+  .welcomeDiv{
+    padding-left: 0px;
+    padding-right: 0px;
+    height: 100%;
+  }
+
 }
 
 
@@ -126,6 +140,23 @@ body {
 .photoDiv{
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.welcomeText{
+  font-size: 24px;
+  font-style: Bold;
+  color: black !important;
+  font-weight: bolder;
+}
+
+.welcomePic{
+  object-position: left;
+}
+
+.welcomeTextDiv{
+ text-align: center;
+ display: flex !important;
+ align-items: flex-end !important;
 }
 
 .photoContainer{
